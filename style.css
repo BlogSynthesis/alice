@@ -75,7 +75,7 @@ body.custom-header #site-title a {
 }
 
 
-/* Primary Navigation */
+/* Navigation */
 #menu-primary {
    // min-height: 50px;   
     background-color: #fafafa; 
@@ -177,6 +177,10 @@ nav.wrap {
 		border-bottom-color: #fff;
 	}
 
+}
+
+#menu-secondary li li a:hover {
+	color: #888;
 }
 
 /* Comments */
