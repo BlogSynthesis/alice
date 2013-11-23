@@ -1,12 +1,12 @@
 <?php
 /**
  * @package    Alice
- * @version    1.0.0
+ * @version    1.0.0-beta-2013-11-23
  * @author     Anand Kumar <anand@blogsynthesis.com
  * @copyright  Copyright (c) 2013, Anand Kumar
  * @author     Justin Tadlock <justin@justintadlock.com>
  * @copyright  Copyright (c) 2013, Justin Tadlock
- * @link       http://www.wpavenue.com/themes/alice
+ * @link       http://www.blogsynthesis.com/themes/alice
  * @license    http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
  */
 
@@ -19,7 +19,7 @@ function alice_theme_setup() {
         add_theme_support( 'custom-background', array( 'default-color' => 'f7f7f7' ) );			
 				
         /* Add a custom default color for the "primary" color option. */
-        add_filter( 'theme_mod_color_primary', 'wpavenue_color_primary' );
+        add_filter( 'theme_mod_color_primary', 'alice_color_primary' );
 		
 		/* Change default custom header */
 		add_theme_support( 'custom-header', array (
@@ -39,7 +39,7 @@ function alice_theme_setup() {
  * @param  string  $hex
  * @return string
  */
-function wpavenue_color_primary( $hex ) {
+function alice_color_primary( $hex ) {
 	return $hex ? $hex : '1897a0';
 }
 	
