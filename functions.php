@@ -23,7 +23,7 @@ function alice_theme_setup() {
 		
 		/* Change default custom header */
 		add_theme_support( 'custom-header', array (
-			'default-image'          => '%2$s/images/header.jpg',
+			'default-image'          => '%2$s/images/headers/header.png',
 			'width'                  => 1175,
 			'height'                 => 200, 	// You may customize.
 		)
