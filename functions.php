@@ -22,12 +22,7 @@ function alice_theme_setup() {
         add_filter( 'theme_mod_color_primary', 'alice_color_primary' );
 		
 		/* Change default custom header */
-		add_theme_support( 'custom-header', array (
-			'default-image'          => '%2$s/images/headers/header.png',
-			'width'                  => 1175,
-			'height'                 => 200, 	// You may customize.
-		)
-	);
+		add_theme_support( 'custom-header', array ( 'default-image' => '%2$s/images/headers/header.jpg'	) );
 		
 }
 

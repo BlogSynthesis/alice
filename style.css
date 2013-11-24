@@ -1,8 +1,8 @@
 /*
 	Theme Name: Alice
-	Theme URI: http://www.wpavenue.com/themes/alice
+	Theme URI: http://themehybrid.com/themes/alice
 	Description: This is a child theme for Stargazer WordPress Theme. 
-	Author: Anand Kumar
+	Author: Anand_Kumar
 	Author URI: http://www.blogsynthesis.com/
 	Version: 1.0.0
  
@@ -38,7 +38,7 @@ body.custom-background {
 }
 
 #sidebar-subsidiary {
-	box-shadow: 0 2px 6px #ddd;
+	box-shadow: 0 1px 6px #ddd;
 	background: #444;
 }
 
