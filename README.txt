@@ -6,3 +6,4 @@ Alice is a very light-weight theme for Stargazer WordPress Theme, which is devel
 Download and Support
 ===
 You may download the latest version of the theme from here or the blog BlogSynthesis.com. 
+If you have any question
