@@ -1,8 +1,8 @@
 <?php
 /**
  * @package    Alice
- * @version    1.0.0-beta-2013-11-24
- * @author     Anand Kumar <anand@blogsynthesis.com
+ * @version    1.0.0
+ * @author     Anand Kumar <anand@blogsynthesis.com>
  * @copyright  Copyright (c) 2013, Anand Kumar
  * @author     Justin Tadlock <justin@justintadlock.com>
  * @copyright  Copyright (c) 2013, Justin Tadlock

@@ -1,6 +1,6 @@
 # Alice
 
-Alice is a WordPress child theme for the [Stargazer](http://themehybrid.com/themes/stargazer) parent theme.  Don't forget to install the parent theme "Stargazer"
+Description: A very neat child theme for [Stargazer WordPress Theme](http://themehybrid.com/themes/stargazer), the most advanced theme ever crafted). The child Theme gives your site a whole different look. It also inherits all the awesome feature from its parent theme. Check out the [live demo site here](http://bit.ly/alice-demo). You may find all documentations about the parent theme at [ThemeHybrid](http://themehybrid.com/) and about the child theme at [BlogSynthesis](http://www.blogsynthesis.com/themes/alice/) also. For any support or feedback visit [ThemeHybrid](http://themehybrid.com/themes/alice) or [WPAvenue Forums](http://www.wpavenue.com/help/).
 
 ## FAQ
 
