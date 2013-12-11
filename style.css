@@ -2,7 +2,7 @@
 	Theme Name: Alice
 	Theme URI: http://themehybrid.com/themes/alice
 	Description: A very neat child theme for <a href="http://themehybrid.com/themes/stargazer">Stargazer WordPress Theme</a> (The most advanced theme ever crafted). The child Theme gives your site a whole different look. It also inherits all the awesome feature from its parent theme. Check out the <a href="http://bit.ly/alice-demo">live demo site here</a>. You may find all documentations about the parent theme at <a href="http://www.themehybrid.com/">ThemeHybrid</a> and about the child theme at <a href="http://www.blogsynthesis.com/themes/alice/">BlogSynthesis</a>.
-	Tags:			one-column, two-columns, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, post-formats, rtl-language-support, gray, black, white.
+	Tags:			one-column, two-columns, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, post-formats, rtl-language-support, gray, black, white
 	Author:			Anand Kumar
 	Author URI:		http://www.blogsynthesis.com/
 	Version:		1.0.0
@@ -184,6 +184,10 @@ nav.wrap {
 
 	.menu li>ul::before {
 		border-bottom-color: #fff;
+	}
+	
+	.ltr .menu li li>ul::before {
+		border-right-color: #fff;
 	}
 
 }

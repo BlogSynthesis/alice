@@ -6,17 +6,22 @@ Description: A very neat child theme for [Stargazer WordPress Theme](http://them
 
 Here are a few tips for you.
 * First of all You will need to install the parent theme [Stargazer](http://themehybrid.com/themes/stargazer).
-* You may download the images, you have seen on [demo site](http://demo.wpavenue.com/alice), from [ZeHawk @Flickr](http://www.flickr.com/photos/lastgunslinger/2947747282/). This is Creative Common (CC BY-SA 2.0) licensed image.
 * For any support visit [WPAvenue](http://www.wpavenue.com) or [ThemeHybrid Support](http://themehybrid.com/support).
 
+## Copyright and License
+* The header images is a copyleft material and taken from http://hubblesite.org/. It released under Public Domain (A GNU GPL compatible licence).
+* All other resources and theme elements are licensed under the [GNU GPL](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html), version 2 or later.
+
+2013 &copy; [Anand Kumar](http://www.blogsynthesis.com) and [Justin Tadlock](http://justintadlock.com).
+
 ## Changelog
+
+### Version 1.0.0
+
+* Public Release. Dt. 12/11/2013
+* Added image copyright/license attribution
+* Fixed 3rd level navigation
 
 ### Version 1.0.0-Beta
 
 * Initial Release. Dt. 11/23/2013
-
-## Copyright and License
-* The default header image it taken from http://hubblesite.org/. It's a NASA copyleft material.
-* All other resources and theme elements are licensed under the [GNU GPL](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html), version 2 or later.
-
-2013 &copy; [Anand Kumar](http://www.blogsynthesis.com) and [Justin Tadlock](http://justintadlock.com).
