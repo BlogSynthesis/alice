@@ -16,7 +16,7 @@ Here are a few tips for you.
 
 ## Changelog
 
-### Version 1.0.0
+### Version 1.0.1
 
 * Public Release. Dt. 12/11/2013
 * Added image copyright/license attribution
