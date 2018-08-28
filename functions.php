@@ -21,9 +21,30 @@ function alice_theme_setup() {
         /* Add a custom default color for the "primary" color option. */
         add_filter( 'theme_mod_color_primary', 'alice_color_primary' );
 		
-		/* Change default custom header */
-		add_theme_support( 'custom-header', array ( 'default-image' => '%2$s/images/headers/header.jpg'	) );
+			/* Change default custom header */
+			add_theme_support(
+				'custom-header', 
+				array ( 
+				'default-image'   => '%2$s/images/headers/Galaxy-Cluster-Abell-520.jpg'
+			) );
 		
+			// Registers default headers for the theme.
+			register_default_headers(
+				array(
+					'lagoon-nebula' => array(
+					'url'           => '%2$s/images/headers/Lagoon-Nebula.jpg',
+					'thumbnail_url' => '%2$s/images/headers/Lagoon-Nebula-thumb.jpg',
+					// Translators: Header image description.
+					'description'   => __( 'Lagoon Nebula', 'alice' )
+				),
+					'abell-520' => array(
+						'url'           => '%2$s/images/headers/Galaxy-Cluster-Abell-520.jpg',
+					'thumbnail_url' => '%2$s/images/headers/Galaxy-Cluster-Abell-520-thumb.jpg',
+						// Translators: Header image description.
+						'description'   => __( 'Galxy Cluster Abell 520', 'alice' )
+					),
+				)
+			);
 }
 
 /**

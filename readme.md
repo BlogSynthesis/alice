@@ -10,6 +10,7 @@ Here are a few tips for you.
 
 ## Copyright and License
 * The header images is a copyleft material and taken from http://hubblesite.org/. It released under Public Domain (A GNU GPL compatible licence).
+
 * All other resources and theme elements are licensed under the [GNU GPL](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html), version 2 or later.
 
 2013 &copy; [Anand Kumar](http://www.blogsynthesis.com) and [Justin Tadlock](http://justintadlock.com).

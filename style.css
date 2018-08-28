@@ -60,6 +60,12 @@ body.custom-header #site-title a {
 }
 
 img.header-image {
+	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0\'/></filter></svg>#grayscale");
+	-webkit-filter: grayscale(0%);
+    filter: grayscale(0); 
+}
+
+img.header-image:hover {
 	-webkit-transition: all 0.7s ease-in-out;
 	-moz-transition: all 0.7s ease-in-out;
 	-ms-transition: all 0.7s ease-in-out;
@@ -75,12 +81,6 @@ img.header-image {
     -o-filter: grayscale(100%);
     filter: grayscale(100%); 
 
-}
-
-img.header-image:hover {
-	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0\'/></filter></svg>#grayscale");
-	-webkit-filter: grayscale(0%);
-    filter: grayscale(0); 
 }
 
 #menu-primary .search-form .search-toggle::before {
@@ -138,6 +138,54 @@ nav.wrap {
 
 #menu-primary .search-form > div {
 	background: #ebebeb;
+}
+
+p.credit {
+    color: #ccc;
+}
+
+p.credit a {
+    font-style:  italic;
+}
+
+/* Comments */
+
+
+.avatar {
+	margin: 0;
+	border-radius: 0;
+}
+
+li.comment, li.ping {
+	margin-top: 2rem;
+}
+
+.ltr .comment-list li>.children, .ltr .comment-list .children li>.children {
+    margin-top: 2rem;
+}
+
+.comment-meta {
+    background: #E7E7E7;
+    padding: 10px;
+    margin-bottom: 0;
+}
+
+header.comment-meta {
+    margin-bottom: 0;
+}
+
+.comment.bypostauthor .comment-meta, 
+.bypostauthor .comment-content {
+	border-left: 3px solid #71ccff;
+}
+
+.comment.bypostauthor header::before {
+	content: "Author Voice";
+	float: right;
+	margin: -10px;
+	background: #71CCFF;
+	padding: 10px;
+	color: #fff;
 }
 
 @media only screen and (max-width: 799px) {
@@ -206,42 +254,4 @@ nav.wrap {
 	color: #888;
 }
 
-/* Comments */
 
-
-.avatar {
-	margin: 0;
-	border-radius: 0;
-}
-
-li.comment, li.ping {
-	margin-top: 2rem;
-}
-
-.ltr .comment-list li>.children, .ltr .comment-list .children li>.children {
-    margin-top: 2rem;
-}
-
-.comment-meta {
-    background: #E7E7E7;
-    padding: 10px;
-    margin-bottom: 0;
-}
-
-header.comment-meta {
-    margin-bottom: 0;
-}
-
-.comment.bypostauthor .comment-meta, 
-.bypostauthor .comment-content {
-	border-left: 3px solid #71ccff;
-}
-
-.comment.bypostauthor header::before {
-	content: "Author Voice";
-	float: right;
-	margin: -10px;
-	background: #71CCFF;
-	padding: 10px;
-	color: #fff;
-}
