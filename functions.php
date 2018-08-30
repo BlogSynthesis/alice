@@ -1,11 +1,11 @@
 <?php
 /**
  * @package    Alice
- * @version    1.0.0
- * @author     Anand Kumar <anand@blogsynthesis.com>
- * @copyright  Copyright (c) 2013, Anand Kumar
- * @author     Justin Tadlock <justin@justintadlock.com>
- * @copyright  Copyright (c) 2013, Justin Tadlock
+ * @version    2.0.0-dev
+ * @author     Anand Kumar <anand@anandkumar.net>
+ * @copyright  Copyright (c) 2013 - 2018, Anand Kumar
+ * @author     Justin Tadlock <justintadlock@gmail.com>
+ * @copyright  Copyright (c) 2013 - 2018, Justin Tadlock
  * @link       http://www.blogsynthesis.com/themes/alice
  * @license    http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
  */
@@ -58,6 +58,3 @@ function alice_theme_setup() {
 function alice_color_primary( $hex ) {
 	return $hex ? $hex : '1897a0';
 }
-	
-/**/
-?>
