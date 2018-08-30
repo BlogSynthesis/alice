@@ -214,6 +214,10 @@ header.comment-meta {
 	color: #fff;
 }
 
+.wp-caption .wp-caption-text {
+    background: rgba(24, 151, 160, 0.85);
+}
+
 @media only screen and (max-width: 799px) {
 
 	#menu-secondary .wrap,
