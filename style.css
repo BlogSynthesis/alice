@@ -1,7 +1,7 @@
 /*
     Theme Name:    Alice
     Theme URI:     http://themehybrid.com/themes/alice
-    Description:   A very neat child theme for <a href="http://themehybrid.com/themes/stargazer">Stargazer</a> (The most advanced theme ever crafted). The child Theme gives your site a whole different look. It also inherits all the awesome feature from its parent theme. Check out the <a href="http://bit.ly/alice-demo">live demo site here</a>. You may find all documentations about the parent theme at <a href="http://www.themehybrid.com/">ThemeHybrid</a> and about the child theme at <a href="http://www.blogsynthesis.com/themes/alice/">BlogSynthesis</a>.
+    Description:   Another beautiful child theme for <a href="http://themehybrid.com/themes/stargazer">Stargazer</a> (One of the most advanced theme ever crafted). Alice 2.0 gives your site a whole different look. It also inherits all the awesome features from its parent theme. You may find all documentations about the parent theme at <a href="http://www.themehybrid.com/">ThemeHybrid</a> and about the child theme at <a href="https://www.digitalliberation.org/themes/alice/">Digital Liberation</a>.
     Tags:			one-column, two-columns, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, post-formats, rtl-language-support
     Author:         Anand Kumar
     Author URI:     http://www.anandkumar.net
@@ -83,10 +83,6 @@ img.header-image:hover {
 
 }
 
-#menu-primary .search-form .search-toggle::before {
-	color: #666;
-}
-
 /* Navigation */
 #menu-primary {
     min-height: 50px;   
@@ -103,7 +99,6 @@ img.header-image:hover {
 	-moz-box-shadow: 0 1px 4px rgba(0,0,0,0.065);  
 	box-shadow: 0 1px 4px #ddd;
 }
-
 .custom-background #container>.wrap {
 	margin-top: 5px;
 }
@@ -120,11 +115,19 @@ nav.wrap {
 #menu-primary .menu-toggle button {
     color: rgba(97, 97, 97, 0.75);
 }
+
+#menu-primary .menu-toggle button:focus,
 #menu-primary .menu-toggle:hover, 
 #menu-primary li.current-menu-item>a, 
 #menu-primary li a:hover {
 	color: #999;
 }	
+
+#menu-primary .menu-toggle button,
+#menu-primary .menu-toggle button:hover {
+    color :#999;
+    margin-top: 8px;
+}
 
 #menu-primary .menu-toggle {
 	color: rgba(104, 104, 104, 0.75);
@@ -138,6 +141,16 @@ nav.wrap {
 
 #menu-primary .search-form > div {
 	background: #ebebeb;
+}
+
+#menu-primary .search-form .search-toggle::before {
+	color: #666;
+}
+
+#menu-secondary .menu-toggle button {
+	color: #eaeaea;
+	background: #1897a0;
+  border-color: #1897a0;
 }
 
 p.credit {
@@ -166,7 +179,7 @@ li.comment, li.ping {
 
 .comment-meta {
     background: #E7E7E7;
-    padding: 10px;
+    padding: 1rem;
     margin-bottom: 0;
 }
 
