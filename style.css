@@ -38,7 +38,12 @@ body.custom-background {
 
 #sidebar-subsidiary {
 	box-shadow: 0 1px 6px #ddd;
-	background: #444;
+	background: #252525;
+	color: #ccc;
+}
+
+#sidebar-subsidiary a {
+	color: rgba(0, 209, 224, 0.75);
 }
 
 .font-headlines, h1, h2, h3, h4, h5, h6 {
@@ -169,6 +174,14 @@ p.credit a {
 	border-radius: 0;
 }
 
+li.ping {
+    padding: 0;
+}
+
+li.ping .comment-meta {
+    background: #f9f9f9;
+}
+
 li.comment, li.ping {
 	margin-top: 2rem;
 }
@@ -178,7 +191,7 @@ li.comment, li.ping {
 }
 
 .comment-meta {
-    background: #E7E7E7;
+    background: #e7e7e7;
     padding: 1rem;
     margin-bottom: 0;
 }
